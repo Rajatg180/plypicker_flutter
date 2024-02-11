@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494438016572",
+    "project_id": "plypicker-project-assi",
+    "storage_bucket": "plypicker-project-assi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494438016572:android:b908766cdec1542a0e4539",
+        "android_client_info": {
+          "package_name": "com.example.plypicker_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd8AKaGbylrGo24bKjayP87l4xGpBrwKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
