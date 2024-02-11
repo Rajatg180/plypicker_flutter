@@ -10,7 +10,7 @@ A new Flutter project.
 
 ## Configure Flutter Project
 
-- In `lib\shared\constants.dart` replace wiht your values 
+- In `lib\shared\constants.dart` replace values with your values 
 
    ```bash
     class Constants{
