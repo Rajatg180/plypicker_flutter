@@ -4,13 +4,37 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Create Firbase new project
+- Set up Firebase Authentication and choose the authentication methods you want to use (e.g., email/password, Google, etc.).
+- Download the Firebase configuration file (`google-services.json` for Android, `GoogleService-Info.plist` for iOS) and place it in the `android/app` and `ios/Runner` directories.
 
-A few resources to get you started if this is your first Flutter project:
+## Configure Flutter Project
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- In `lib\shared\constants.dart` replace wiht your values 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+    class Constants{
+    static String appId="YOUR APP ID";
+    static String apiKey="YOUR API KEY";
+    static String messagingSenderId="YOUR MESSAGING SENDER ID";
+    static String projectId="YOUR PROJECTID";
+  }
+
+- Clone this repository:
+
+   ```bash
+   git clone https://github.com/Rajatg180/plypicker_flutter.git
+
+- Navigate to the project directory
+  ```bash
+  cd plypicker_flutter
+
+- Install dependencies:
+  ```bash
+  flutter pub get
+
+- Run the app:
+  ```bash
+  flutter run
+
+
